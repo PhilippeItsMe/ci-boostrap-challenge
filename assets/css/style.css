@@ -67,6 +67,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -74,4 +78,36 @@ header {
 
 .row {
     margin-left: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem a {
+    width: 100%;
+    height: 120px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    padding-bottom: 10px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
